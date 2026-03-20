@@ -1,3 +1,17 @@
+<h1>Steps to load a kernel module</h1>
+
+  ```  bash
+      # to load the module
+        sudo insmod <filename>
+
+        # to verify the module is loaded 
+          sudo dmesg
+
+        # to remove the module
+          sudo rmmod <filename>
+```
+  
+
 <h1>Hello world Module has being loaded into the kernel</h1>
 
 <img width="1365" height="762" alt="image" src="https://github.com/user-attachments/assets/02ed611d-2c27-43c5-b736-516861b84653" />
